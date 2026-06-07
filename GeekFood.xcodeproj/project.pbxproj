@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A436C242BF7BA4E0093BB57 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A436C232BF7BA4E0093BB57 /* LoadingView.swift */; };
+		2A436C262BF7BCC60093BB57 /* Color + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A436C252BF7BCC60093BB57 /* Color + Ext.swift */; };
+		2A436C282BF94A000093BB57 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A436C272BF94A000093BB57 /* RemoteImage.swift */; };
+		2A4A83B72B7B7FEC0048B9BB /* MealListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A83B62B7B7FEC0048B9BB /* MealListCell.swift */; };
+		2A4A83B92B7B81140048B9BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A83B82B7B81140048B9BB /* NetworkManager.swift */; };
+		2A4A83BB2B7B92FE0048B9BB /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A83BA2B7B92FE0048B9BB /* GFError.swift */; };
+		2A4A83BD2B7BA08D0048B9BB /* MealsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4A83BC2B7BA08D0048B9BB /* MealsListViewModel.swift */; };
+		2A77AC742C1D952800F402D3 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC732C1D952800F402D3 /* GFButton.swift */; };
+		2A77AC762C1D96F200F402D3 /* GFXDissmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC752C1D96F200F402D3 /* GFXDissmissButton.swift */; };
+		2A77AC782C1DB33300F402D3 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC772C1DB33300F402D3 /* AccountViewModel.swift */; };
+		2A77AC7A2C1DB63800F402D3 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC792C1DB63800F402D3 /* String+Ext.swift */; };
+		2A77AC7C2C1DBA6F00F402D3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC7B2C1DBA6F00F402D3 /* User.swift */; };
+		2A77AC7F2C1DCA1A00F402D3 /* OrderEmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC7E2C1DCA1A00F402D3 /* OrderEmptyState.swift */; };
+		2A77AC812C1DD06200F402D3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC802C1DD06200F402D3 /* Order.swift */; };
+		2A77AC852C1DFB4700F402D3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77AC842C1DFB4700F402D3 /* Alert.swift */; };
+		2AB23B872B7A824500D9313C /* GeekFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB23B862B7A824500D9313C /* GeekFoodApp.swift */; };
+		2AB23B892B7A824500D9313C /* FoodTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB23B882B7A824500D9313C /* FoodTabView.swift */; };
+		2AB23B8B2B7A824700D9313C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB23B8A2B7A824700D9313C /* Assets.xcassets */; };
+		2AB23B8F2B7A824700D9313C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB23B8E2B7A824700D9313C /* Preview Assets.xcassets */; };
+		2AB23B962B7A83BB00D9313C /* MealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB23B952B7A83BB00D9313C /* MealsListView.swift */; };
+		2AB23B982B7A859A00D9313C /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB23B972B7A859A00D9313C /* AccountView.swift */; };
+		2AB23B9A2B7A85C000D9313C /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB23B992B7A85C000D9313C /* OrderView.swift */; };
+		2AB23B9C2B7ABAFC00D9313C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB23B9B2B7ABAFC00D9313C /* Meal.swift */; };
+		2AE6E3E82C023B8D00A202D3 /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE6E3E72C023B8D00A202D3 /* MealDetailsView.swift */; };
+		2AEC95912C63CF3C0040D14C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC95902C63CF3C0040D14C /* Date+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A436C232BF7BA4E0093BB57 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2A436C252BF7BCC60093BB57 /* Color + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Ext.swift"; sourceTree = "<group>"; };
+		2A436C272BF94A000093BB57 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		2A4A83B62B7B7FEC0048B9BB /* MealListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListCell.swift; sourceTree = "<group>"; };
+		2A4A83B82B7B81140048B9BB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2A4A83BA2B7B92FE0048B9BB /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
+		2A4A83BC2B7BA08D0048B9BB /* MealsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListViewModel.swift; sourceTree = "<group>"; };
+		2A77AC732C1D952800F402D3 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		2A77AC752C1D96F200F402D3 /* GFXDissmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFXDissmissButton.swift; sourceTree = "<group>"; };
+		2A77AC772C1DB33300F402D3 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		2A77AC792C1DB63800F402D3 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		2A77AC7B2C1DBA6F00F402D3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A77AC7E2C1DCA1A00F402D3 /* OrderEmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderEmptyState.swift; sourceTree = "<group>"; };
+		2A77AC802C1DD06200F402D3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		2A77AC842C1DFB4700F402D3 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2AB23B832B7A824500D9313C /* GeekFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB23B862B7A824500D9313C /* GeekFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeekFoodApp.swift; sourceTree = "<group>"; };
+		2AB23B882B7A824500D9313C /* FoodTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTabView.swift; sourceTree = "<group>"; };
+		2AB23B8A2B7A824700D9313C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB23B8C2B7A824700D9313C /* GeekFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeekFood.entitlements; sourceTree = "<group>"; };
+		2AB23B8E2B7A824700D9313C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AB23B952B7A83BB00D9313C /* MealsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListView.swift; sourceTree = "<group>"; };
+		2AB23B972B7A859A00D9313C /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		2AB23B992B7A85C000D9313C /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		2AB23B9B2B7ABAFC00D9313C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2AE6E3E72C023B8D00A202D3 /* MealDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
+		2AEC95902C63CF3C0040D14C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB23B802B7A824500D9313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A77AC722C1D94F800F402D3 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2A77AC732C1D952800F402D3 /* GFButton.swift */,
+				2A77AC752C1D96F200F402D3 /* GFXDissmissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2A77AC7D2C1DC9F700F402D3 /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				2A77AC7E2C1DCA1A00F402D3 /* OrderEmptyState.swift */,
+			);
+			path = "Empty States";
+			sourceTree = "<group>";
+		};
+		2AB23B7A2B7A824500D9313C = {
+			isa = PBXGroup;
+			children = (
+				2AB23B852B7A824500D9313C /* GeekFood */,
+				2AB23B842B7A824500D9313C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB23B842B7A824500D9313C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB23B832B7A824500D9313C /* GeekFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB23B852B7A824500D9313C /* GeekFood */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6E3E32C02377A00A202D3 /* Views */,
+				2AE6E3E22C02371C00A202D3 /* Models */,
+				2AE6E3DE2C02360300A202D3 /* Utilities */,
+				2AE6E3DA2C02355200A202D3 /* Screens */,
+				2AB23B862B7A824500D9313C /* GeekFoodApp.swift */,
+				2AB23B8A2B7A824700D9313C /* Assets.xcassets */,
+				2AB23B8C2B7A824700D9313C /* GeekFood.entitlements */,
+				2AB23B8D2B7A824700D9313C /* Preview Content */,
+			);
+			path = GeekFood;
+			sourceTree = "<group>";
+		};
+		2AB23B8D2B7A824700D9313C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AB23B8E2B7A824700D9313C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AE6E3DA2C02355200A202D3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2AB23B882B7A824500D9313C /* FoodTabView.swift */,
+				2AE6E3DB2C02356100A202D3 /* MealsListView */,
+				2AE6E3DC2C02357200A202D3 /* AccountView */,
+				2AE6E3DD2C02358000A202D3 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2AE6E3DB2C02356100A202D3 /* MealsListView */ = {
+			isa = PBXGroup;
+			children = (
+				2A4A83BC2B7BA08D0048B9BB /* MealsListViewModel.swift */,
+				2AB23B952B7A83BB00D9313C /* MealsListView.swift */,
+				2AE6E3E72C023B8D00A202D3 /* MealDetailsView.swift */,
+			);
+			path = MealsListView;
+			sourceTree = "<group>";
+		};
+		2AE6E3DC2C02357200A202D3 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				2A77AC772C1DB33300F402D3 /* AccountViewModel.swift */,
+				2AB23B972B7A859A00D9313C /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		2AE6E3DD2C02358000A202D3 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				2AB23B992B7A85C000D9313C /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		2AE6E3DE2C02360300A202D3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2AE6E3E02C02362D00A202D3 /* Alerts + Errors */,
+				2AE6E3E12C02366B00A202D3 /* Extensions */,
+				2AE6E3DF2C02361100A202D3 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2AE6E3DF2C02361100A202D3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2A4A83B82B7B81140048B9BB /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2AE6E3E02C02362D00A202D3 /* Alerts + Errors */ = {
+			isa = PBXGroup;
+			children = (
+				2A4A83BA2B7B92FE0048B9BB /* GFError.swift */,
+				2A77AC842C1DFB4700F402D3 /* Alert.swift */,
+			);
+			path = "Alerts + Errors";
+			sourceTree = "<group>";
+		};
+		2AE6E3E12C02366B00A202D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A436C252BF7BCC60093BB57 /* Color + Ext.swift */,
+				2A77AC792C1DB63800F402D3 /* String+Ext.swift */,
+				2AEC95902C63CF3C0040D14C /* Date+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AE6E3E22C02371C00A202D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AB23B9B2B7ABAFC00D9313C /* Meal.swift */,
+				2A77AC7B2C1DBA6F00F402D3 /* User.swift */,
+				2A77AC802C1DD06200F402D3 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AE6E3E32C02377A00A202D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A77AC7D2C1DC9F700F402D3 /* Empty States */,
+				2A77AC722C1D94F800F402D3 /* Buttons */,
+				2AE6E3E52C02379F00A202D3 /* Cells */,
+				2AE6E3E62C0237AB00A202D3 /* Images */,
+				2AE6E3E42C02378900A202D3 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AE6E3E42C02378900A202D3 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				2A436C232BF7BA4E0093BB57 /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		2AE6E3E52C02379F00A202D3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2A4A83B62B7B7FEC0048B9BB /* MealListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2AE6E3E62C0237AB00A202D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A436C272BF94A000093BB57 /* RemoteImage.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB23B822B7A824500D9313C /* GeekFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB23B922B7A824700D9313C /* Build configuration list for PBXNativeTarget "GeekFood" */;
+			buildPhases = (
+				2AB23B7F2B7A824500D9313C /* Sources */,
+				2AB23B802B7A824500D9313C /* Frameworks */,
+				2AB23B812B7A824500D9313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeekFood;
+			productName = GeekFood;
+			productReference = 2AB23B832B7A824500D9313C /* GeekFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB23B7B2B7A824500D9313C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2AB23B822B7A824500D9313C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2AB23B7E2B7A824500D9313C /* Build configuration list for PBXProject "GeekFood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB23B7A2B7A824500D9313C;
+			productRefGroup = 2AB23B842B7A824500D9313C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB23B822B7A824500D9313C /* GeekFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB23B812B7A824500D9313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB23B8F2B7A824700D9313C /* Preview Assets.xcassets in Resources */,
+				2AB23B8B2B7A824700D9313C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB23B7F2B7A824500D9313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A77AC7A2C1DB63800F402D3 /* String+Ext.swift in Sources */,
+				2AB23B982B7A859A00D9313C /* AccountView.swift in Sources */,
+				2AB23B892B7A824500D9313C /* FoodTabView.swift in Sources */,
+				2A77AC762C1D96F200F402D3 /* GFXDissmissButton.swift in Sources */,
+				2AEC95912C63CF3C0040D14C /* Date+Ext.swift in Sources */,
+				2A4A83BB2B7B92FE0048B9BB /* GFError.swift in Sources */,
+				2A436C242BF7BA4E0093BB57 /* LoadingView.swift in Sources */,
+				2A77AC812C1DD06200F402D3 /* Order.swift in Sources */,
+				2A4A83BD2B7BA08D0048B9BB /* MealsListViewModel.swift in Sources */,
+				2A77AC852C1DFB4700F402D3 /* Alert.swift in Sources */,
+				2AB23B962B7A83BB00D9313C /* MealsListView.swift in Sources */,
+				2AE6E3E82C023B8D00A202D3 /* MealDetailsView.swift in Sources */,
+				2A436C282BF94A000093BB57 /* RemoteImage.swift in Sources */,
+				2AB23B872B7A824500D9313C /* GeekFoodApp.swift in Sources */,
+				2A4A83B92B7B81140048B9BB /* NetworkManager.swift in Sources */,
+				2AB23B9C2B7ABAFC00D9313C /* Meal.swift in Sources */,
+				2A77AC742C1D952800F402D3 /* GFButton.swift in Sources */,
+				2A4A83B72B7B7FEC0048B9BB /* MealListCell.swift in Sources */,
+				2AB23B9A2B7A85C000D9313C /* OrderView.swift in Sources */,
+				2A77AC7F2C1DCA1A00F402D3 /* OrderEmptyState.swift in Sources */,
+				2A77AC782C1DB33300F402D3 /* AccountViewModel.swift in Sources */,
+				2A436C262BF7BCC60093BB57 /* Color + Ext.swift in Sources */,
+				2A77AC7C2C1DBA6F00F402D3 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AB23B902B7A824700D9313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AB23B912B7A824700D9313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2AB23B932B7A824700D9313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeekFood/GeekFood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GeekFood/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UKWRZH3B7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitry-Arkharov.GeekFood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB23B942B7A824700D9313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GeekFood/GeekFood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"GeekFood/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UKWRZH3B7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dmitry-Arkharov.GeekFood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB23B7E2B7A824500D9313C /* Build configuration list for PBXProject "GeekFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB23B902B7A824700D9313C /* Debug */,
+				2AB23B912B7A824700D9313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB23B922B7A824700D9313C /* Build configuration list for PBXNativeTarget "GeekFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB23B932B7A824700D9313C /* Debug */,
+				2AB23B942B7A824700D9313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB23B7B2B7A824500D9313C /* Project object */;
+}
